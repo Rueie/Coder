@@ -1,0 +1,7 @@
+all:result
+
+result: first.o
+	gcc first.o -o program_1
+
+first.o: first.c
+	gcc -c first.c

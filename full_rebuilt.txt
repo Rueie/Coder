@@ -1,0 +1,7 @@
+all:result
+
+result:remove
+	make -f make_first.txt
+	make -f make_second.txt
+remove:
+	rm first.o program_1 second.o program_2

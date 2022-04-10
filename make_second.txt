@@ -1,0 +1,6 @@
+all:result
+
+result: second.o
+	gcc second.o -o program_2
+second.o: second.c
+	gcc -c second.c
